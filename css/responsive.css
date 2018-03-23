@@ -46,7 +46,6 @@
 	#restaurants-list li {
 		width: 27.333%;
 		margin: 1%;
-		padding: 2%;
 	}
 }
 
@@ -55,7 +54,6 @@
 	#restaurants-list li {
 		width: 44%;
 		margin: 1%;
-		padding: 2%;
 	}
 }
 
@@ -63,8 +61,7 @@
 @media screen and (max-width: 420px) {
 	#restaurants-list li {
 		width: 96%;
-		margin: 4% 0;
-		padding: 2%;
+		margin: 4% 2%;
 		min-height: 0;
 	}
 
