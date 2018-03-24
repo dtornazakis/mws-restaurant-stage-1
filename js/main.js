@@ -10,6 +10,7 @@ var markers = []
 document.addEventListener('DOMContentLoaded', (event) => {
   fetchNeighborhoods();
   fetchCuisines();
+  handleRestaurantFilters();
 });
 
 /**
@@ -175,4 +176,22 @@ addMarkersToMap = (restaurants = self.restaurants) => {
     });
     self.markers.push(marker);
   });
+}
+
+/**
+ * Add click event listener on filter menu handler
+ */
+handleRestaurantFilters = () => {
+  const handler = document.querySelector('.filter-options-handler');
+  handler.addEventListener('click', toggleFilters);
+}
+
+/**
+ * Add appropriate handling class for show / hide of filters
+ */
+toggleFilters = (e) => {
+  const filters = document.querySelectorAll('.filter-options select');
+  for (let filter of filters) {
+    filter.classList.toggle('show');
+  }
 }

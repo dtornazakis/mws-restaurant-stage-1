@@ -69,3 +69,26 @@
 		min-height: 0;
 	}
 }
+
+/* Secondary Breakpoints - Content Oriented */
+@media screen and (max-width: 580px) {
+	
+	.filter-options .filter-options-handler {
+		display: inline-block;
+	}
+
+	.filter-options h2 {
+		margin: 0;
+	}
+
+	.filter-options select {
+		display: none;
+		width: 96%;
+		margin: 1% 2%;
+		padding: 0 2%;
+	}
+
+	.filter-options select:last-of-type {
+		margin-bottom: 2%;
+	}
+}
