@@ -153,6 +153,32 @@ class DBHelper {
     return (`/img/${restaurant.photograph}`);
   }
 
+  static responsiveImageUrlForRestaurant(restaurant) {
+    // clock-demo-thumb-200.png 200w, clock-demo-thumb-400.png 400w"
+    let srcsizeSet = '';
+    const sizes = [200, 400, 800];
+    if (restaurant.photographs) {
+      let i = 0;
+      for (let photograph of restaurant.photographs) {
+        srcsizeSet += `/img/${photograph} ${sizes[i]}w,`;
+        i++
+      }  
+    }
+    return (srcsizeSet);
+  }
+
+  static responsiveImageSizeForRestaurant(restaurant) {
+    let srcSize = '';
+    if (restaurant.photographs) {
+      for (let photograph of restaurant.photographs) {
+        srcSize = "(max-width: 600px) 200px, 50vw";
+      }  
+    }
+    return (srcSize);
+  }
+
+  // 
+
   /**
    * Map marker for a restaurant.
    */

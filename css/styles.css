@@ -256,6 +256,7 @@ table tr:nth-child(2n+1) {
 #restaurant-img {
   display: block;
 	max-width: 100%;
+  width: 800px;
   margin: 0 auto;
 }
 #restaurant-address {
