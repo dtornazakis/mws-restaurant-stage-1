@@ -156,7 +156,7 @@ class DBHelper {
   static responsiveImageUrlForRestaurant(restaurant) {
     // clock-demo-thumb-200.png 200w, clock-demo-thumb-400.png 400w"
     let srcsizeSet = '';
-    const sizes = [200, 400, 800];
+    const sizes = [400, 600, 800];
     if (restaurant.photographs) {
       let i = 0;
       for (let photograph of restaurant.photographs) {
