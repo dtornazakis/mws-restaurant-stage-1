@@ -154,16 +154,8 @@ class DBHelper {
   }
 
   static responsiveImageUrlForRestaurant(restaurant) {
-    // clock-demo-thumb-200.png 200w, clock-demo-thumb-400.png 400w"
-    let srcsizeSet = '';
-    const sizes = [400, 600, 800];
-    if (restaurant.photographs) {
-      let i = 0;
-      for (let photograph of restaurant.photographs) {
-        srcsizeSet += `/img/${photograph} ${sizes[i]}w,`;
-        i++
-      }  
-    }
+    let photograph = restaurant.photograph.split('.')[0];
+    let srcsizeSet = `/img/${photograph}-400.jpg 400w, /img/${photograph}-600.jpg 600w, /img/${restaurant.photograph.split('.')[0]}-800.jpg 800w,`;
     return (srcsizeSet);
   }
 
