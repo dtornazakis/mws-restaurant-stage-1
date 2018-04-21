@@ -30,7 +30,7 @@
   - Semantic elements (header, nav, main, section, article, footer, ...) are used properly
   - The website is readable in high contrast mode
   - Contrast is valid according to WCAG AAA standards ([tool](https://webaim.org/resources/contrastchecker/))
-  - Add `role="application"` to the div element with id#map
+  - ~~Add `role="application"` to the div element with id#map~~
   - The <ul> that is the breadcrumb needs to have the appropriate aria structure. Follow this example https://www.w3.org/TR/wai-aria-practices/examples/breadcrumb/index.html
 ## Offline Availability
 - Are pages that have been visited available offline?
