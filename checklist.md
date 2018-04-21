@@ -1,22 +1,22 @@
 # Restaurant Reviews: Stage 1
 ## Responsive Design
-- Is the site UI compatible with a range of display sizes?
+- ~~Is the site UI compatible with a range of display sizes?~~
   - ~~All content is responsive and displays on a range of display sizes.~~
   - ~~Content should make use of available screen real estate and should display correctly at all screen sizes.~~
-  - An image's associated title and text renders next to the image in all viewport sizes.
-- Are images responsive?
-  - Images in the site are sized appropriate to the viewport and do not crowd or overlap other elements in the browser, regardless of viewport size.
-    - on the index.html (using 128px wide images with similar render on different layouts)
-    - on the restaurant.html
-      - 360px wide (smartphone + small desktop)
-      - 480px wide (tablet+ medium desktop)
-      - 800px wide (large desktop)
+  - ~~An image's associated title and text renders next to the image in all viewport sizes.~~
+- ~~Are images responsive?~~
+  - ~~Images in the site are sized appropriate to the viewport and do not crowd or overlap other elements in the browser, regardless of viewport size.~~
+    - ~~on the index.html (using 128px wide images with similar render on different layouts)~~
+    - ~~on the restaurant.html~~
+      - ~~360px wide (smartphone + small desktop)~~
+      - ~~480px wide (tablet+ medium desktop)~~
+      - ~~800px wide (large desktop)~~
   - ~~Are application elements visible and usable in all viewports?~~
   - ~~On the main page, restaurants and images are displayed in all viewports.~~
   - ~~The detail page includes a map, hours and reviews in all viewports.~~
 ## Accessibility
-- Are images accessible?
-  - All content-related images include appropriate alternate text that clearly describes the content of the image.
+- ~~Are images accessible?~~
+  - ~~All content-related images include appropriate alternate text that clearly describes the content of the image.~~
 - Is focus used appropriately to allow easy navigation of the site?
   - Focus is appropriately managed allowing users to noticeably tab through each of the important elements of the page. 
   - Modal or interstitial windows appropriately lock focus.
